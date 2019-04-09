@@ -1,0 +1,4 @@
+*, ***, #.ger {
+ colar: #ff;
+}
+*,**:before,*::AFTER{position:absolute;top:-10000px}
