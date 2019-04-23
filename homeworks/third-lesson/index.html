@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+<form action="http://maximumstart-echo.herokuapp.com/" method="POST">
+<link rel="stylesheet" href="thisfile.css">
+<form class="form">
+	<h1>Регистрация</h1>
+	<p>*Все поля обязательны к заполнению</p>
+
+	  	<p>
+	  		<label for="name">Имя</label>
+	  		<input type="text" required name="name" id="name">
+	  	</p>
+	  	<p>
+	  		<label for="surname">Фамилия</label>
+	  		<input type="text" required name="surname" id="surname">	
+	  	</p>
+		<p>
+			<label for="phone">Телефон</label>
+			<input type="number" required name="phone" id="phone" placeholder="+380(XX)XXX-XXX">
+	  	</p>
+	  	<p>
+	  		<label for=" color">Любимый цвет</label>
+	  		<input type="color" required name="color" id="color">
+	  	</p>
+	  	<p>
+	  		<label for="date">Сегодняшнее число</label>
+	  		<input type="date" required name="date" id="date" placeholder="mm/dd/yyyy">
+	  	</p>
+	  	<p>
+	  		<label for="password">Пароль</label>
+	  		<input type="password" required name="password" id="password">
+	  	</p>
+	  	<p>
+	  		<input type="radio"  name="gender" value="male">
+	  		<label for="male-radio">Мальчик</label>
+	  	</p>
+	  	<p>
+	  		<input type="radio" name="gender" value="female">
+	  		<label for="female-radio">Девочка</label>
+	  	</p>
+	  	<p>
+	  		<input type="radio" name="gender" value="pots">
+	  		<label for="unidentified">Не определился</label>
+	  	</p>	
+
+        <label>Cообщение
+        	<textarea cols="30" rows="10">Тест</textarea>
+        </label>
+	        <input type="submit" value="Отправить форму">          
+</form>
+</body>
+</html>
